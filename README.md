@@ -1,4 +1,4 @@
-This is a repository of the scripts, data and outputs for the analysis of the manuscript entitled: "...".
+This is a repository of the scripts, data and outputs for the analysis in the manuscript entitled: "...".
 
 ## Bioinformatics
 This folder contains the scripts, data and outputs (with the exception of raw FASTQ files: see below) for processing of NGS amplicon sequences obtained from metabarcoding of ARMS units.  

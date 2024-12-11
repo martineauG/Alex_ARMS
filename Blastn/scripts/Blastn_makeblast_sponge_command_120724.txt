@@ -1,0 +1,11 @@
+gabby@scylla:~/working/sponge_database_120724$ makeblastdb -in Martineau_sponge_database_120724.fasta -parse_seqids -blastdb_version 5 -taxid_map Martineau_sponge_database_mapping_ID_120724.txt -title spongedb -dbtype nucl
+
+
+Building a new DB, current time: 12/08/2024 11:26:13
+New DB name:   /drives/hdd10t/users/gabby/sponge_database_120724/Martineau_sponge_database_120724.fasta
+New DB title:  spongedb
+Sequence type: Nucleotide
+Deleted existing Nucleotide BLAST database named /drives/hdd10t/users/gabby/sponge_database_120724/Martineau_sponge_database_120724.fasta
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 294 sequences in 0.017066 seconds.

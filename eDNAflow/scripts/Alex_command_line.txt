@@ -1,0 +1,1 @@
+gabby@scylla:~/working/eNAflowAlex$ eDNAFlow.nf -params-file Alex_eDNAflow_parameters.yaml

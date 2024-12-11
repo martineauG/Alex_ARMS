@@ -1,0 +1,12 @@
+blastn \
+    -db "$BLASTDB/nt" \
+    -outfmt "6 qseqid sseqid staxids sscinames scomnames sskingdoms pident length qlen slen mismatch gapopen gaps qstart qend sstart send stitle evalue bitscore qcovs qcovhsp" \
+    -perc_identity 90 \
+    -evalue "1e-3" \
+    -best_hit_score_edge 0.05 \
+   -best_hit_overhang 0.25 \
+    -qcov_hsp_perc 90 \
+    -max_target_seqs 50 \
+    -query  sponge_both_seqruns_sequences_not_retained.fasta\
+    -num_threads 30\
+    -out "blast_results_full_nt.tab"

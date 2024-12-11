@@ -1,0 +1,14 @@
+barcode: ./Alex_bc.txt
+fastQC: true
+paired: true
+reads: ../Alexsequences
+illuminaDemultiplexed: true
+removeAmbiguousIndices: true
+vsearch: true
+maxQueryResults: 100
+assignTaxonmy: false
+maxCpus: 20
+maxMemory: 800
+collapseTaxonomy: false
+skipBlast: true
+skipLulu: true

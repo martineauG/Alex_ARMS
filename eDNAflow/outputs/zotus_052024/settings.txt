@@ -1,0 +1,2 @@
+denoiser: vsearch
+minimum sequence abundance: 8

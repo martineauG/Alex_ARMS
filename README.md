@@ -8,4 +8,4 @@ Data were sequenced in two MiSeq runs. The raw, demultiplexed Fastq files were s
 
 
 ## Data visualization and statistical analyses
-Alex, you can add this folder. 
+Scripts for plots and statistical analyses generated for this manuscript.
